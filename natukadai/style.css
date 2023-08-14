@@ -1,0 +1,100 @@
+@charset "UTF-6";
+
+body{
+	#background-image: url("images/IThome.jpg");
+	#background-size: cover;
+}
+.header {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	width: 210px;
+	margin-top: 14px;
+}
+.menu li {
+	display: flex;
+	list-style-type: none;
+	margin-left: 35px;
+	display: inline;
+}
+.itsp {
+	text-decoration: none;
+        background-color: #66cdaa;
+	color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}
+.sisk {
+        text-decoration: none;
+        background-color: #00ffff;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}
+.gmkr {
+        text-decoration: none;
+        background-color: #ff4500;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}
+.yken {
+        text-decoration: none;
+        background-color: #ff00ff;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}
+.hmpg {
+        text-decoration: none;
+        background-color: #808080;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}
+.content {
+	text-align: center;
+	margin-top: 10%;
+}
+.content1 {
+        text-align: center;
+        margin-top: 1%;
+}
+.content h2.title {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 100px;
+}
+.content h2.title1 {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 80px;
+}
+.button {
+	text-decoration: none;
+	background-color: #0bd;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: #0090aa;
+}
+.but {
+        text-decoration: none;
+        background-color: #b266ff;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+	margin: 100px;
+}
+.but:hover {
+        background-color: #a347ff;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #8fbac8;
+	padding: 8px;
+}
