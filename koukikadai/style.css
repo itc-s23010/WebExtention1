@@ -1,0 +1,334 @@
+@charset "UTF-6";
+
+.header {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	width: 400px;
+	margin-top: 5px;
+}
+.menu li {
+	display: flex;
+	list-style-type: none;
+	margin-left: 35px;
+	display: inline;
+}
+.itsp {
+	text-decoration: none;
+        background-color: #b0c4de;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.sisk {
+        text-decoration: none;
+        background-color: #f0e68c;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.gmkr {
+        text-decoration: none;
+        background-color: #ffc0cb;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.yken {
+        text-decoration: none;
+        background-color: #7fff00;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.hmpg {
+        text-decoration: none;
+        background-color: #808080;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px; 
+}
+.content {
+	text-align: center;
+	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 5%;
+}
+.content1 {
+        text-align: center;
+        margin-left: auto;
+    	margin-right: auto;
+    	margin-top: auto;
+}
+.content h2.title {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 75px;
+	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: auto;
+}
+.content h2.title1 {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 75px;
+        margin-left: auto;
+    	margin-right: auto;
+    	margin-top: auto;
+}
+.button {
+	text-decoration: none;
+	background-color: #0bd;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: #0090aa;
+}
+.but {
+        text-decoration: none;
+        background-color: #b266ff;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+	margin: 100px;
+}
+.but:hover {
+        background-color: #a347ff;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #8fbac8;
+	padding: 8px;
+}
+.itsp2 {
+	text-decoration: none;
+        background-color: #b0c4de;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.sisk2 {
+        text-decoration: none;
+        background-color: #f0e68c;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.gmkr2 {
+        text-decoration: none;
+        background-color: #ffc0cb;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+.yken2 {
+        text-decoration: none;
+        background-color: #7fff00;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+/*
+	生産国
+		*/
+.kokusann {
+	text-decoration: none;
+        background-color: #b0c4de;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+        margin-left: auto;
+    	margin-right: auto;
+}
+.kaigai {
+        text-decoration: none;
+        background-color: #f0e68c;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+        margin-left: auto;
+    	margin-right: auto;
+}
+/* 
+	国産メーカー
+			*/
+.honnda {
+	text-decoration: none;
+        background-color: #ff0000;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.yamaha {
+        text-decoration: none;
+        background-color: #a9a9a9;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.kawasaki {
+        text-decoration: none;
+        background-color: #00ff00;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.suzuki {
+        text-decoration: none;
+        background-color: #00bfff;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+/*
+	排気量
+		*/
+.gozyu {
+	text-decoration: none;
+        background-color: #e6e6fa;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.hyaku {
+        text-decoration: none;
+        background-color: #ffff00;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.nihya {
+        text-decoration: none;
+        background-color: #ffc0cb;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.yonnh {
+        text-decoration: none;
+        background-color: #e6e6fa;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.yonnhy {
+	text-decoration: none;
+        background-color: #00ff00;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+/* 45+2.5+2.5=50% */
+img {
+  width: 100%;
+}
+.genzai {
+        text-decoration: none;
+        background-color: #ffff00;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+}
+/*
+	車種
+		*/
+.gennt {
+	text-decoration: none;
+        background-color: #ffdead;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.minib {
+        text-decoration: none;
+        background-color: #4682b4;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.sutor {
+        text-decoration: none;
+        background-color: #48d1cc;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.ameri {
+        text-decoration: none;
+        background-color: #008000;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+.supo- {
+	text-decoration: none;
+        background-color: #00fa9a;
+	color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 40px;
+}
+
+footer {
+  margin-top: 100px;
+　background-color: darkred;
+　color: whitesmoke;
+}
+
+.footer-menu {
+　height: 60px;
+}
+
+.footer-menu-list {
+　list-style: none;
+　text-align: center;
+　line-height: 60px;
+}
+
+.footer-menu-list li {
+　margin: 10px;
+　display: inline;
+}
+
+.copyright {
+　text-align: center;
+}
+
